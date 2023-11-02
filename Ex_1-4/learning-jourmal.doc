@@ -1,0 +1,5 @@
+1. It is important to store files locally so that our data will still exist when the python script stops running. If we don’t store it then our data can’t be retrieved again.
+2. Pickles convert complex data into a packaged stream of bytes known as a ‘pickle’ which is then stored as a binary file. It is used to read and write complex information such as information containing non-scalar objects such as dictionaries.
+3. The os.getcwd() command is used to find out the current working directory. The os.chdir() command changes the current working directory.
+4. I will use try-except blocks. First use try block for code where you’d expect an error to occur. I would then use the except block to capture any possible errors to prevent the application from exiting suddenly. If no errors are found, the rest of your code is executed as normal.
+5. Everything is going very well. The python documentation is very detailed and very helpful.
