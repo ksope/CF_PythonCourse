@@ -7,7 +7,7 @@ ingredients_list = []
 def take_recipe():
     name = input('Please enter the name of the recipe: ')
     cooking_time = int(input('Please enter the cooking time in minutes: '))
-    ingredients = input('Enter each ingredient you require seperated by a comma: ').split(', ')
+    ingredients = input('Enter each ingredient you require seperated by a comma and a space e.g. salt, sugar: ').split(', ')
     recipe = {'name': name, 'cooking_time': cooking_time, 'ingredients': ingredients}
     calc_difficulty(recipe)
     return recipe
