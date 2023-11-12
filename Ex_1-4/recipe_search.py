@@ -11,17 +11,17 @@ def search_ingredient(data):
     try:
         #user picks a number from the list
         ingredient_searched = int(input('Pick a number from the list of ingredients: '))
+        print('Recipes:')
+        for recipe in data['recipes_list']:
+            if all_ingredients[ingredient_searched] in recipe['ingredients']:
+                display_recipe(recipe)
     except ValueError:
         print("Your input is not a number.")
     except IndexError:
         print('Number not part of list of ingredients')
     except:
         print("The input is incorrect.")
-    else:
-        print('Recipes:')
-        for recipe in data['recipes_list']:
-            if all_ingredients[ingredient_searched] in recipe['ingredients']:
-                display_recipe(recipe)
+        
 
 #input the name of the file that contains recipe data
 filename = input('Enter the file name for the recipes data without the extension name: ') + '.bin'
