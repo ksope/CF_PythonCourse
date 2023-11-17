@@ -1,0 +1,10 @@
+1. An object-relational mapper (ORM) is a code library that automates the transfer of data stored in relational database tables into objects that are more commonly used in application code
+
+Advantages:
+* It speeds up development time for teams.
+* Decreases the cost of development.
+* Handles the logic required to interact with databases.
+* Improves security. ORM tools are built to eliminate the possibility of SQL injection attacks.
+* You write less code when using ORM tools than with SQL.
+2. It went very well. I like the learning progression which took me on a journey from one learning step to another. I would probably have liked to learn about Set data types which I feel is important but missing in the data types chapter. 
+3. I have built a command line Recipes App using python and mySQL. I began by creating a Recipe class which enabled me. I setup SQLAlchemy which enabled create an engine object which formed a connection with the database. A session object was then created to make changes to the database. I also defined the attributes for the Recipes table to create columns. I then defined some functions to do various things such as creating recipes, updating and deleting recipes.  Finally, the app was able to interact with the database using an object-relational mapper which enabled using pythonic code rather than SQL syntaxes to interact with the database.
