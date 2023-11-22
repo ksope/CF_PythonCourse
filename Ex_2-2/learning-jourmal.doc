@@ -1,0 +1,15 @@
+1. First, I will treat the whole website as one application with features of the website being treated as apps. For example for a simple library application the application will be called library while the library project will consist of apps such as borrowers, books, login, admin and reports. The library project will have configuration files which will interact with all the apps.
+The configuration files will also allow basic Django admin functionality, such as creating databases and running the server.
+Each app except the login will have a table in the database while the borrowers app and report app will interact to view and present data as managed by the configuration files. 
+The borrowers app will also interact with the books app to know which books each borrower currently has. While the reports will also be linked to the borrowers app to know book return due dates for each borrower.
+2. I will first create the project, then run migrations to create the necessary database tables. The migrations will also enable me make changes to the database schema of the application. This is done on windows OS using the cmd: py manage.py migrate
+The next step will be to run the server which will deploy the application to the localhost and provide access to the application from the browser. This is done on the windows OS using the cmd: py manage.py runserver
+I will access the homepage of the application using the default port of “http://127.0.0.1:8000/”. 
+
+3. The Django Admin interface is accessed once the server has started running and allows basic database operations such as adding, modifying and deleting records. It also allows adding different users and also superusers who have all CRUD operation permissions. The admin interface allows user management such as changing passwords, editing access rights as well.
+I can also use the Django admin site during web application development to: 
+* Create, update, and delete records for my models.
+* Test my models and check the validity of my data.
+
+To create a superuser, first I will create a superuser in the terminal then run server and then login to the admin interface using the user login details I created.
+
