@@ -1,0 +1,48 @@
+frontend inspirations
+
+https://www.delish.com/uk/
+What I like about it: I love the colours and the grid layout
+
+
+
+
+https://foodnetwork.co.uk/
+What I like about it: I love the home page and how you can view all recipes with difficulty levels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://thehappyfoodie.co.uk/
+What I like about it: I love how you can search for recipes based on ingredient
+
+
+
+
+
+
+1. Django is a web framework that allows developers to build web applications quickly and efficiently. Static files such as images, JavaScript, or CSS are files that do not change in a web application. In Django, we refer to these files as “static files”. Django provides django.contrib.staticfiles to help manage these files. 
+
+To configure static files, make sure that django.contrib.staticfiles is included in your INSTALLED_APPS. In your settings file, define STATIC_URL to specify the URL where the static files will be served from.
+
+In your templates, use the static template tag to build the URL for the given relative path using the configured staticfiles alias.
+
+To serve the static files, you’ll also need to actually serve the static files.
+
+
+2. Two Django packages from Django's official documentation:
+
+Django REST framework: A powerful and flexible toolkit for building Web APIs. It provides features such as authentication, serialization, viewsets, routers, testing, etc. 
+Django CMS: An easy-to-use and developer-friendly CMS platform that integrates with Django seamlessly. It allows users to create and manage content through a drag-and-drop interface.
+
