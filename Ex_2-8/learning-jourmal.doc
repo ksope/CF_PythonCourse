@@ -1,0 +1,11 @@
+1. Django would be used to match URLs with pages. Create a view that renders a template (HTML) and some static files (CSS, JS). To connect external CSS files with HTML in Django, create a static folder, add the CSS files to it, and connect the CSS files to HTML templates.
+2. First: 
+a. install all project dependencies such as whitenoise, gumicorn etc and using cmd: pip freeze > requirements.txt.
+b.  Then, initialize a new Git repository for project using git init. 
+c. After, add all the files in project to the Git repository using git add . 
+d. Commit the changes to Git repository using git commit -m "Initial commit".
+e. Install the Heroku CLI on local machine.
+f. Create a new Heroku app using heroku create.
+g. Deploy application to Heroku using git push heroku main.
+h. Configure Your Application: Configure your application by setting environment variables and other settings using the Heroku CLI.
+i. Test Your Application: Test application on Heroku using heroku open.

@@ -1,0 +1,13 @@
+I want users to search for recipes based on the ingredient of the recipe and have all recipes with those ingredients show up.
+
+Data Analysis
+Bar Chart & Line Chart:
+x-axis- Recipe names
+y-axis- cooking time
+
+Pie Chart:
+Data- cooking time
+Labels- Recipe names
+
+
+
